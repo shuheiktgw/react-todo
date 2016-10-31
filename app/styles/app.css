@@ -1,0 +1,85 @@
+/*
+Syntax error: Invalid CSS after "        primary": expected ")", was ": #2199e8,"
+        on line 52 of base/_foundation-settings.scss
+        from line 4 of app.scss
+
+47: 
+48: $global-font-size: 100%;
+49: $global-width: rem-calc(1200);
+50: $global-lineheight: 1.5;
+51: $foundation-palette: (
+52:         primary: #2199e8,
+53:         secondary: #777,
+54:         success: #3adb76,
+55:         warning: #ffae00,
+56:         alert: #ec5840,
+57: );
+
+Backtrace:
+base/_foundation-settings.scss:52
+app.scss:4
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/lexer.rb:206:in `expected!'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:483:in `assert_tok'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:433:in `paren'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:418:in `special_fun'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:413:in `raw'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:337:in `funcall'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:319:in `ident'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_not'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_div'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_minus'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_plus'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `times_div_or_mod'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `plus_or_minus'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `relational'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `eq_or_neq'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `and_expr'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `or_expr'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:298:in `space'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:283:in `interpolation'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:246:in `expr'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:477:in `assert_expr'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:49:in `parse'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1022:in `sass_script'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:514:in `variable'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:546:in `block_contents'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:274:in `to_tree'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/exec.rb:443:in `watch_or_update'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/exec.rb:326:in `process_result'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/exec.rb:41:in `parse'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/exec.rb:21:in `parse!'
+/Users/Shuhei/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/bin/scss:13:in `<top (required)>'
+/Users/Shuhei/local/rbenv/versions/2.1.2/bin/scss:23:in `load'
+/Users/Shuhei/local/rbenv/versions/2.1.2/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"        primary\": expected \")\", was \": #2199e8,\"\A         on line 52 of base/_foundation-settings.scss\A         from line 4 of app.scss\A \A 47: \A 48: $global-font-size: 100%;\A 49: $global-width: rem-calc(1200);\A 50: $global-lineheight: 1.5;\A 51: $foundation-palette: (\A 52:         primary: #2199e8,\A 53:         secondary: #777,\A 54:         success: #3adb76,\A 55:         warning: #ffae00,\A 56:         alert: #ec5840,\A 57: );"; }
