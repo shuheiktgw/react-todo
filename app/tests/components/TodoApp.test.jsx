@@ -15,9 +15,10 @@ describe('TodoApp', () => {
     var todoText = 'test text';
     var todoApp = TestUtils.renderIntoDocument(<TodoApp/>);
 
+    todoApp.setState({todos: []});
     todoApp.handleAddTodo(todoText);
 
-    expect(todoApp.state.todos[3].text).toBe(todoText);
+    expect(todoApp.state.todos[0].text).toBe(todoText);
   });
 
   it('should toggle completed value when handleToggle called', () => {
