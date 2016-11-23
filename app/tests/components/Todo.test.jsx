@@ -4,7 +4,6 @@ var ReactDOM = require('react-dom');
 var TestUtils = require('react-addons-test-utils');
 var $ = require('jQuery');
 
-import firebase, {firebaseRef} from 'app/firebase/'
 import * as actions from 'actions';
 import {Todo} from 'Todo';
 
@@ -35,43 +34,4 @@ describe('Todo', () => {
 
     expect(spy).toHaveBeenCalledWith(action);
   });
-
-  describe('Tests with firebase todos', () => {
-    var testTodoRef;
-
-    beforeEach((done) => {
-      testTodoRef = firebaseRef.child('todos').push();
-      testTodoRef.set({
-        text: 'Something todos',
-        completed: false,
-        createdAt: 12332
-      }).then(() => done());
-    });
-
-    afterEach((done) => {
-      testTodoRef.remove().then(() => done());
-    });
-
-    it('should toggle todo and dispatch UPDATE_TODO action', (done) => {
-      const store  = createMockStore({});
-      const action = actions.startToggleTodo(testTodoRef.key, true);
-
-      store.dispatch(action).then(() => {
-        const mockActions = store.getActions();
-
-        expect(mockActions[0]).toInclude({
-          type: 'UPDATE_TODO',
-          id: testTodoRef.key
-        });
-
-        expect(mockActions[0].updates).toInclude({
-          completed: true
-        });
-
-        expect(mockActions[0].updates.completedAt).toExist();
-
-        done()
-      }, done())
-    });
-  })
 });
