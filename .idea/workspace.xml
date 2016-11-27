@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51032e31-fffa-42e2-8b4c-54f4b5c5642b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/reducers/reducers.jsx" afterPath="$PROJECT_DIR$/app/reducers/reducers.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/actions/actions.test.jsx" afterPath="$PROJECT_DIR$/app/tests/actions/actions.test.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx" afterPath="$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx" />
     </list>
     <ignored path="ReactTimer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +27,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="actions.test.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="actions.test.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/tests/actions/actions.test.jsx">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#66#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducers.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/reducers/reducers.jsx">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
-              <caret line="159" column="48" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducers.test.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -99,11 +123,11 @@
         <option value="$PROJECT_DIR$/app/components/TodoApp.jsx" />
         <option value="$PROJECT_DIR$/app/router/index.js" />
         <option value="$PROJECT_DIR$/app/store/configureStore.jsx" />
-        <option value="$PROJECT_DIR$/app/reducers/reducers.jsx" />
-        <option value="$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx" />
         <option value="$PROJECT_DIR$/app/actions/actions.jsx" />
         <option value="$PROJECT_DIR$/app/app.jsx" />
         <option value="$PROJECT_DIR$/app/tests/actions/actions.test.jsx" />
+        <option value="$PROJECT_DIR$/app/reducers/reducers.jsx" />
+        <option value="$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx" />
       </list>
     </option>
   </component>
@@ -216,7 +240,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
+              <option name="myItemId" value="reducers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reducers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,12 +361,12 @@
       <workItem from="1479880462108" duration="11260000" />
       <workItem from="1480030702101" duration="3127000" />
       <workItem from="1480130009534" duration="6689000" />
-      <workItem from="1480209328091" duration="5182000" />
+      <workItem from="1480209328091" duration="5461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93550000" />
+    <option name="totallyTimeSpent" value="93829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -636,22 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/reducers/reducers.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="118" column="27" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -694,8 +720,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/actions/actions.test.jsx">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#66#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/reducers/reducers.jsx">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
-          <caret line="159" column="48" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
           <folding />
         </state>
       </provider>

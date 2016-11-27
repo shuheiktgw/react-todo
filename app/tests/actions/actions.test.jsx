@@ -12,7 +12,7 @@ describe('Actions', () => {
       type: 'SET_SEARCH_TEXT',
       searchText: 'Some search text'
     };
-    var res = actions.setSearchText(action.searchText)
+    var res = actions.setSearchText(action.searchText);
 
     expect(res).toEqual(action);
   });
@@ -21,7 +21,7 @@ describe('Actions', () => {
     var action = {
       type: 'TOGGLE_SHOW_COMPLETED',
     };
-    var res = actions.toggleShowComplete()
+    var res = actions.toggleShowComplete();
 
     expect(res).toEqual(action);
   });
